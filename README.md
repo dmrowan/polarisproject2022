@@ -18,7 +18,7 @@ The majority of stellar mass black holes are detected in X-ray binary systems or
 
 ## Python Tools
 
-The most important packages for this project will be [astropy](https://www.astropy.org/), [pandas](https://pandas.pydata.org/docs/), [numpy](https://pandas.pydata.org/docs/), and matplotlib[https://matplotlib.org/stable/api/index]
+The most important packages for this project will be [astropy](https://www.astropy.org/), [pandas](https://pandas.pydata.org/docs/), [numpy](https://pandas.pydata.org/docs/), and [matplotlib](https://matplotlib.org/stable/api/index)
 
 Some notes on these:
 * For astropy we are primarily going to use the [Lomb Scargle Periodogram](https://docs.astropy.org/en/stable/timeseries/lombscargle.html) class. This documentation runs through the basic setup and execution steps to get a period estimate from timer-series data
