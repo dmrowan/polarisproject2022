@@ -6,6 +6,14 @@ We are interested in studying black holes to learn more about the late stage evo
 
 The majority of stellar mass black holes are detected in X-ray binary systems or in gravitational wave mergers, but these systems represent a small fraction of possible binary configurations. Most black holes will be isolated or in non-interacting systems. Detecting these systems is difficult, since the black holes are electromagnetically dark, but not impossible. In this project we will work with radial velocity data and photometric data of a red giant star to determine the nature of its binary companion!
 
+## Data Files
+
+There are two data files in this git repo we will need:
+
+The 'kelt_clipped' file gives the magnitude of the giant star on different [helocentric julian days](https://en.wikipedia.org/wiki/Heliocentric_Julian_Day). See below for a description of the magnitude system. [KELT](https://keltsurvey.org/) is a survey telescope mission designed to search for exoplanet transits by monitoring millions of bright stars over ~daily cadence. We don't have any planets here, but we can use KELT to search for signals of ellipsoidal variability. 
+
+The 'stellar_rv' file gives the radial velocity (in km/s) of the star on different barycentric julian days. The third column gives the error on the RV measurements.
+
 ## Background papers/articles
 
 * [TAT-1 press release](https://news.osu.edu/scientists-may-just-have-discovered-a-new-class-of-black-holes/)
