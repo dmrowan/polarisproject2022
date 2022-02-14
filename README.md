@@ -2,7 +2,7 @@
 
 ## Project Goals
 
-We are interested in studying black holes to learn more about the late stage evolution of massive stars and the underlying properties of compact objects. There are more than 10^6 black holes in the Milky Way, but only a few dozen have been observed. 
+We are interested in studying black holes to learn more about the late stage evolution of massive stars and the underlying properties of compact objects. There are more than 10^8 black holes in the Milky Way, but only a few dozen have been observed. 
 
 The majority of stellar mass black holes are detected in X-ray binary systems or in gravitational wave mergers, but these systems represent a small fraction of possible binary configurations. Most black holes will be isolated or in non-interacting systems. Detecting these systems is difficult, since the black holes are electromagnetically dark, but not impossible. In this project we will work with radial velocity data and photometric data of a red giant star to determine the nature of its binary companion!
 
@@ -15,6 +15,7 @@ The majority of stellar mass black holes are detected in X-ray binary systems or
 * [Core Collapse Supernovae](https://astronomy.swin.edu.au/cosmos/c/core-collapse)
 * [The Black Hole Mass Distribution in The Galaxy (Ozel 2010)](https://ui.adsabs.harvard.edu/abs/2010ApJ...725.1918O/abstract) -- focus on sections 1 and 2
 * [A Unicorn in Monoceros (Jayasinghe 2021)](https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.2577J/abstract)
+* [An Isolated Mass Gap Black Hole (Lam 2022)](https://ui.adsabs.harvard.edu/abs/2022arXiv220201903L/abstract)
 
 ## Python Tools
 
