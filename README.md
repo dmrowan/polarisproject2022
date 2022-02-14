@@ -21,7 +21,7 @@ The majority of stellar mass black holes are detected in X-ray binary systems or
 The most important packages for this project will be [astropy](https://www.astropy.org/), [pandas](https://pandas.pydata.org/docs/), [numpy](https://pandas.pydata.org/docs/), and [matplotlib](https://matplotlib.org/stable/api/index)
 
 Some notes on these:
-* For astropy we are primarily going to use the [Lomb Scargle Periodogram](https://docs.astropy.org/en/stable/timeseries/lombscargle.html) class. This documentation runs through the basic setup and execution steps to get a period estimate from timer-series data
+* For astropy we are primarily going to use the [Lomb Scargle Periodogram](https://docs.astropy.org/en/stable/timeseries/lombscargle.html) class. This documentation runs through the basic setup and execution steps to get a period estimate from time-series data
 * We will use pandas to load in our RV/light curve data as a "dataframe" and do various calculations. There are tons of resources for this online, and the package is very google-able. The first two lessons of [this tutorial](https://bitbucket.org/hrojas/learn-pandas/src/master/) are a good starting point. I've also added a jupyter notebook showing and example of how I have used pandas for my work. 
 * Matplotlib is a great for making quick plots but can also make high-quality poster/publication level plots. We will look into this more when we make our poster. 
 
