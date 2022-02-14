@@ -16,6 +16,7 @@ The majority of stellar mass black holes are detected in X-ray binary systems or
 * [The Black Hole Mass Distribution in The Galaxy (Ozel 2010)](https://ui.adsabs.harvard.edu/abs/2010ApJ...725.1918O/abstract) -- focus on sections 1 and 2
 * [A Unicorn in Monoceros (Jayasinghe 2021)](https://ui.adsabs.harvard.edu/abs/2021MNRAS.504.2577J/abstract)
 * [An Isolated Mass Gap Black Hole (Lam 2022)](https://ui.adsabs.harvard.edu/abs/2022arXiv220201903L/abstract)
+* [High Tide: A Systematic Search for Ellipsoidal Variables (me lol)](https://ui.adsabs.harvard.edu/abs/2021MNRAS.507..104R/abstract)
 
 ## Python Tools
 
