@@ -2,9 +2,17 @@
 
 ## Project Goals
 
-We are interested in studying black holes to learn more about the late stage evolution of massive stars and the underlying properties of compact objects. There are more than $10^6$ black holes in the Milky Way, but only a few dozen have been observed. 
+We are interested in studying black holes to learn more about the late stage evolution of massive stars and the underlying properties of compact objects. There are more than 10^6 black holes in the Milky Way, but only a few dozen have been observed. 
 
 The majority of stellar mass black holes are detected in X-ray binary systems or in gravitational wave mergers, but these systems represent a small fraction of possible binary configurations. Most black holes will be isolated or in non-interacting systems. Detecting these systems is difficult, since the black holes are electromagnetically dark, but not impossible. In this project we will work with radial velocity data and photometric data of a red giant star to determine the nature of its binary companion!
+
+## Python Tools
+
+The most important packages for this project will be [astroy](https://www.astropy.org/), [pandas](https://pandas.pydata.org/docs/), [numpy](https://pandas.pydata.org/docs/), and matplotlib[https://matplotlib.org/stable/api/index]
+
+Some notes on these:
+* For astropy we are primarily going to use the [Lomb Scargle Periodogram](https://docs.astropy.org/en/stable/timeseries/lombscargle.html) class. This documentation runs through the basic setup and execution steps to get a period estimate from timer-series data
+* Pandas
 
 ## Reading Scientific Papers
 
