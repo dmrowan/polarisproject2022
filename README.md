@@ -26,6 +26,8 @@ The 'stellar_rv' file gives the radial velocity (in km/s) of the star on differe
 * [An Isolated Mass Gap Black Hole (Lam 2022)](https://ui.adsabs.harvard.edu/abs/2022arXiv220201903L/abstract)
 * [High Tide: A Systematic Search for Ellipsoidal Variables (me lol)](https://ui.adsabs.harvard.edu/abs/2021MNRAS.507..104R/abstract)
 * [Islands of BH formation](http://www.astroexplorer.org/details/apj522871f13)
+* [Periodogram background and examples](https://online.stat.psu.edu/stat510/lesson/6/6.1)
+* [Unverstanding the LS periodogram](https://iopscience.iop.org/article/10.3847/1538-4365/aab766)
 
 ## Python Tools
 
@@ -58,4 +60,11 @@ Three part astrobites piece on [Tools for Reading Papers](https://astrobites.org
   * Sections 1 and 2 of Ozel (2010)
   * Read in light curve data (kelt_clipped.csv')
   * If time permits, plot the light curve
+
+# February 21
+* Defining orbital phase
+* Visualizing system geometry
+* Background on fourier analysis and lomb scargle periodogram
+* After class:
+    * Plot periodogram and select best period
 
