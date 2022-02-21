@@ -27,7 +27,7 @@ The 'stellar_rv' file gives the radial velocity (in km/s) of the star on differe
 * [High Tide: A Systematic Search for Ellipsoidal Variables (me lol)](https://ui.adsabs.harvard.edu/abs/2021MNRAS.507..104R/abstract)
 * [Islands of BH formation](http://www.astroexplorer.org/details/apj522871f13)
 * [Periodogram background and examples](https://online.stat.psu.edu/stat510/lesson/6/6.1)
-* [Unverstanding the LS periodogram](https://iopscience.iop.org/article/10.3847/1538-4365/aab766)
+* [Understanding the LS periodogram](https://iopscience.iop.org/article/10.3847/1538-4365/aab766)
 
 ## Python Tools
 
