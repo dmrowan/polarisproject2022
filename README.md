@@ -38,6 +38,8 @@ Some notes on these:
 * We will use pandas to load in our RV/light curve data as a "dataframe" and do various calculations. There are tons of resources for this online, and the package is very google-able. The first two lessons of [this tutorial](https://bitbucket.org/hrojas/learn-pandas/src/master/) are a good starting point. I've also added a jupyter notebook showing and example of how I have used pandas for my work. 
 * Matplotlib is a great for making quick plots but can also make high-quality poster/publication level plots. We will look into this more when we make our poster. 
 
+[Python Cheat Sheets](https://ehmatthes.github.io/pcc_2e/cheat_sheets/cheat_sheets/)
+
 ## Reading Scientific Papers
 
 Section 3 of [Cooke et al. (2020)](https://arxiv.org/abs/2006.12566) describes the questions one should try to answer while reading a paper:
