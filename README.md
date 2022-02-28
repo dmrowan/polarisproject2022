@@ -28,6 +28,7 @@ The 'stellar_rv' file gives the radial velocity (in km/s) of the star on differe
 * [Islands of BH formation](http://www.astroexplorer.org/details/apj522871f13)
 * [Periodogram background and examples](https://online.stat.psu.edu/stat510/lesson/6/6.1)
 * [Understanding the LS periodogram](https://iopscience.iop.org/article/10.3847/1538-4365/aab766)
+* [AAVSO description of phase folding](https://www.aavso.org/sites/default/files/Chapter12.pdf)
 
 ## Python Tools
 
@@ -69,4 +70,12 @@ Three part astrobites piece on [Tools for Reading Papers](https://astrobites.org
 * Background on fourier analysis and lomb scargle periodogram
 * After class:
     * Plot periodogram and select best period
+
+# February 28
+* Discussion of Ozel (2010) paper
+* Phase folding example: [asassn ell](https://asas-sn.osu.edu/variables/7a3aebd9-090a-586f-b71a-1abfbd5c3a41)
+* Calculate orbital phase for light curve
+* After class:
+   * Plot a phase-folded light curve
+   * Read in radial velocity "stella_rv" file as pandas dataframe
 
