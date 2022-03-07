@@ -79,3 +79,9 @@ Three part astrobites piece on [Tools for Reading Papers](https://astrobites.org
    * Plot a phase-folded light curve
    * Read in radial velocity "stella_rv" file as pandas dataframe
 
+# March 7
+* Review /  finish phase folding light curve
+* Is this the correct period? -- review system geometry
+* Read in RV data
+* After class:
+   * Plot phase-folded radial velocity curve
