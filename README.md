@@ -85,3 +85,11 @@ Three part astrobites piece on [Tools for Reading Papers](https://astrobites.org
 * Read in RV data
 * After class:
    * Plot phase-folded radial velocity curve
+
+# March 21
+* During class:
+   * Plot phase-folded light curve
+   * Binary mass function
+* After class:
+   * Use binary mass function to compute mass of black hole
+   * Read Sections 1 and 2 of Jayasinghe et al. (2021). Also look through Table 5 and corresponding text in Section 5
