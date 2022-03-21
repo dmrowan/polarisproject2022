@@ -29,6 +29,7 @@ The 'stellar_rv' file gives the radial velocity (in km/s) of the star on differe
 * [Periodogram background and examples](https://online.stat.psu.edu/stat510/lesson/6/6.1)
 * [Understanding the LS periodogram](https://iopscience.iop.org/article/10.3847/1538-4365/aab766)
 * [AAVSO description of phase folding](https://www.aavso.org/sites/default/files/Chapter12.pdf)
+* [Derivation of binary mass function](https://imagine.gsfc.nasa.gov/features/yba/CygX1_mass/binary/equation_derive.html)
 
 ## Python Tools
 
