@@ -6,6 +6,14 @@ We are interested in studying black holes to learn more about the late stage evo
 
 The majority of stellar mass black holes are detected in X-ray binary systems or in gravitational wave mergers, but these systems represent a small fraction of possible binary configurations. Most black holes will be isolated or in non-interacting systems. Detecting these systems is difficult, since the black holes are electromagnetically dark, but not impossible. In this project we will work with radial velocity data and photometric data of a red giant star to determine the nature of its binary companion!
 
+## Data Files
+
+There are two data files in this git repo we will need:
+
+The 'kelt_clipped' file gives the magnitude of the giant star on different [helocentric julian days](https://en.wikipedia.org/wiki/Heliocentric_Julian_Day). See below for a description of the magnitude system. [KELT](https://keltsurvey.org/) is a survey telescope mission designed to search for exoplanet transits by monitoring millions of bright stars over ~daily cadence. We don't have any planets here, but we can use KELT to search for signals of ellipsoidal variability. 
+
+The 'stellar_rv' file gives the radial velocity (in km/s) of the star on different barycentric julian days. The third column gives the error on the RV measurements.
+
 ## Background papers/articles
 
 * [TAT-1 press release](https://news.osu.edu/scientists-may-just-have-discovered-a-new-class-of-black-holes/)
@@ -18,6 +26,10 @@ The majority of stellar mass black holes are detected in X-ray binary systems or
 * [An Isolated Mass Gap Black Hole (Lam 2022)](https://ui.adsabs.harvard.edu/abs/2022arXiv220201903L/abstract)
 * [High Tide: A Systematic Search for Ellipsoidal Variables (me lol)](https://ui.adsabs.harvard.edu/abs/2021MNRAS.507..104R/abstract)
 * [Islands of BH formation](http://www.astroexplorer.org/details/apj522871f13)
+* [Periodogram background and examples](https://online.stat.psu.edu/stat510/lesson/6/6.1)
+* [Understanding the LS periodogram](https://iopscience.iop.org/article/10.3847/1538-4365/aab766)
+* [AAVSO description of phase folding](https://www.aavso.org/sites/default/files/Chapter12.pdf)
+* [Derivation of binary mass function](https://imagine.gsfc.nasa.gov/features/yba/CygX1_mass/binary/equation_derive.html)
 
 ## Python Tools
 
@@ -27,6 +39,8 @@ Some notes on these:
 * For astropy we are primarily going to use the [Lomb Scargle Periodogram](https://docs.astropy.org/en/stable/timeseries/lombscargle.html) class. This documentation runs through the basic setup and execution steps to get a period estimate from time-series data
 * We will use pandas to load in our RV/light curve data as a "dataframe" and do various calculations. There are tons of resources for this online, and the package is very google-able. The first two lessons of [this tutorial](https://bitbucket.org/hrojas/learn-pandas/src/master/) are a good starting point. I've also added a jupyter notebook showing and example of how I have used pandas for my work. 
 * Matplotlib is a great for making quick plots but can also make high-quality poster/publication level plots. We will look into this more when we make our poster. 
+
+[Python Cheat Sheets](https://ehmatthes.github.io/pcc_2e/cheat_sheets/cheat_sheets/)
 
 ## Reading Scientific Papers
 
@@ -51,3 +65,32 @@ Three part astrobites piece on [Tools for Reading Papers](https://astrobites.org
   * Read in light curve data (kelt_clipped.csv')
   * If time permits, plot the light curve
 
+# February 21
+* Defining orbital phase
+* Visualizing system geometry
+* Background on fourier analysis and lomb scargle periodogram
+* After class:
+    * Plot periodogram and select best period
+
+# February 28
+* Discussion of Ozel (2010) paper
+* Phase folding example: [asassn ell](https://asas-sn.osu.edu/variables/7a3aebd9-090a-586f-b71a-1abfbd5c3a41)
+* Calculate orbital phase for light curve
+* After class:
+   * Plot a phase-folded light curve
+   * Read in radial velocity "stella_rv" file as pandas dataframe
+
+# March 7
+* Review /  finish phase folding light curve
+* Is this the correct period? -- review system geometry
+* Read in RV data
+* After class:
+   * Plot phase-folded radial velocity curve
+
+# March 21
+* During class:
+   * Plot phase-folded light curve
+   * Binary mass function
+* After class:
+   * Use binary mass function to compute mass of black hole
+   * Read Sections 1 and 2 of Jayasinghe et al. (2021). Also look through Table 5 and corresponding text in Section 5
