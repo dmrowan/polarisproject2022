@@ -12,7 +12,7 @@ There are two data files in this git repo we will need:
 
 The 'kelt_clipped' file gives the magnitude of the giant star on different [helocentric julian days](https://en.wikipedia.org/wiki/Heliocentric_Julian_Day). See below for a description of the magnitude system. [KELT](https://keltsurvey.org/) is a survey telescope mission designed to search for exoplanet transits by monitoring millions of bright stars over ~daily cadence. We don't have any planets here, but we can use KELT to search for signals of ellipsoidal variability. 
 
-The 'stellar_rv' file gives the radial velocity (in km/s) of the star on different barycentric julian days. The third column gives the error on the RV measurements.
+The 'stellar_rv' file gives the radial velocity (in km/s) of the star on different barycentric julian days. The third column gives the error on the RV measurements. More information on STELLA can be found [here](https://ui.adsabs.harvard.edu/abs/2008SPIE.7019E..0LW/abstract)
 
 ## Background papers/articles
 
